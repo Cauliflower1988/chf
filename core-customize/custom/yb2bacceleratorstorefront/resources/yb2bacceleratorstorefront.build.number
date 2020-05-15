@@ -1,11 +1,11 @@
 #Ant properties
-#Thu Oct 17 15:33:43 CEST 2019
+#Thu Aug 01 10:25:44 CEST 2019
 version.api=1905
 vendor=hybris
 group.id=de.hybris.platform
 name=yb2bacceleratorstorefront
 description=yb2bacceleratorstorefront
-builddate=20191017 1528
+builddate=20190801 1022
 releasedate=20190628 1509
-version=1905.6
+version=1905.2
 module.name=platform-module

@@ -4,11 +4,13 @@
 package de.hybris.platform.acceleratorstorefrontcommons.strategy;
 
 /**
- * Facade interface providing an API for performing operations on consents of customers.
- *
- * Deprecated since 2005, please use {@link de.hybris.platform.commercefacades.consent.CustomerConsentDataStrategy}
+ * Strategy for Customer Consent Management Operations in Storefront.
  */
-@Deprecated(since = "1905")
-public interface CustomerConsentDataStrategy extends de.hybris.platform.commercefacades.consent.CustomerConsentDataStrategy
+public interface CustomerConsentDataStrategy
 {
+	/**
+	 * Injects the customer consents into the session as a Hashmap.
+	 *
+	 */
+	void populateCustomerConsentDataInSession();
 }
