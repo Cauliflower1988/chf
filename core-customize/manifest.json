@@ -71,7 +71,7 @@
          "yb2bacceleratorstorefront",
 
          "cloudcommons",
-         "cloudhotfolder"
+         "cloudhotfolder",
          "azurecloudhotfolder"
     ],    
     "storefrontAddons" : [
