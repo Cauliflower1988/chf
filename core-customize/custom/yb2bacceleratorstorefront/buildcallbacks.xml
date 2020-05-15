@@ -1073,8 +1073,7 @@
         </sequential>
         	
     </macrodef>
-
-<!--
+    	
     <patternset id="extension.yb2bacceleratorstorefront.binary.filter">
         		
         <patternset refid="extension.binary.filter"/>
@@ -1106,7 +1105,6 @@
         <exclude name="resources/wro_addons.xml"/>
         	
     </patternset>
--->
     	
     <target description="compile the _ui-src folder in _ui" name="yb2bacceleratorstorefront_compileuisrc">
         		
