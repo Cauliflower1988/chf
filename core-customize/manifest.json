@@ -16,7 +16,8 @@
          "ycommercewebservices",
          "ycommercewebservicestest",
          "orderselfserviceaddon",
-
+         "electronicsstore",
+		 "apparelstore",
          "powertoolsstore",
          "solrserver",
 
