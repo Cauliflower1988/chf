@@ -1,82 +1,17 @@
 {
-    "commerceSuiteVersion": "1905",
+    "commerceSuiteVersion": "2005",
     "useCloudExtensionPack": true,  
       "extensions": [
-         "adaptivesearchsolr",
-         "adaptivesearchbackoffice",
-         "adaptivesearchsamplesaddon",
-         "adaptivesearchwebservices",
-         "b2bcommercebackoffice",
-         "solrfacetsearchbackoffice",
-
-         "yacceleratorcockpits",
-         "yacceleratorbackoffice",
-         "yacceleratorinitialdata",
-         "yacceleratorfulfilmentprocess",
-         "ycommercewebservices",
-         "ycommercewebservicestest",
-         "orderselfserviceaddon",
-         "electronicsstore",
-		 "apparelstore",
-         "powertoolsstore",
-         "solrserver",
-
-         "acceleratorwebservicesaddon",
-         "b2bacceleratoraddon",
-         "commerceorgaddon",
-         "commerceorgsamplesaddon",
-
-         "customersupportbackoffice",
-         "customerticketingaddon",
-
-         "rulebuilderbackoffice",
-         "couponbackoffice",
-         "droolsruleengineservices",
-         "couponfacades",
-         "promotionenginesamplesaddon",
-
-         "textfieldconfiguratortemplatebackoffice",
-         "textfieldconfiguratortemplateaddon",
-
-         "cmswebservices",
-         "smarteditwebservices",
-         "cmssmarteditwebservices",
-         "permissionswebservices",
-         "smarteditaddon",
-         "cmssmartedit",
-         "cmsbackoffice",
-         "assistedservicestorefront",
-         "assistedservicewebservices",
-         "cmsoccaddon",
-         "oauth2",
-         "previewwebservices",
-         "previewpersonalizationweb",
-         "personalizationcmsweb",
-         "personalizationsmartedit",
-         "personalizationpromotionssmartedit",
-         "personalizationsampledataaddon",
-         "personalizationpromotionssampledataaddon",
-         "personalizationpromotions",
-         "personalizationpromotionsweb",
-         "personalizationservicesbackoffice",
-         "personalizationpromotionsbackoffice",
-         "personalizationcmsbackoffice",
-         "personalizationsearchbackoffice",
-         "personalizationsearchsmartedit",
-         "personalizationsearchweb",
-         "personalizationsearchsamplesaddon",
-
-         "b2boccaddon",
-         "savedorderformsoccaddon",
-         "consignmenttrackingoccaddon",
-         "pcmbackofficesamplesaddon",
-         "yb2bacceleratorstorefront",
-         "yacceleratorstorefront",
-          
-         "cloudcommons",
-         "cloudhotfolder",
          "azurecloudhotfolder"
     ],    
+
+    "useConfig":{
+      "extensions":{
+         "location":"hybris/config/localextensions.xml"
+      },
+      "properties":[]
+   },
+
     "storefrontAddons" : [
         {
             "addon": "commerceorgsamplesaddon",
