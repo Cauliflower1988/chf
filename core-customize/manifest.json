@@ -1,10 +1,7 @@
 {
     "commerceSuiteVersion": "2005",
     "useCloudExtensionPack": true,  
-      "extensions": [
-         "azurecloudhotfolder"
-    ],    
-
+      "extensions": [],    
     "useConfig":{
       "extensions":{
          "location":"hybris/config/localextensions.xml"
