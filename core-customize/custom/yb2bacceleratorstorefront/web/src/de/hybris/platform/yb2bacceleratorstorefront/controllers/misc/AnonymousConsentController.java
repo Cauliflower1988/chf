@@ -72,9 +72,9 @@ public class AnonymousConsentController extends AbstractPageController
 			updatedAnonymousConsentCookie.setMaxAge((int) TimeUnit.DAYS.toSeconds(365));
 			response.addCookie(updatedAnonymousConsentCookie);
 		}
-		catch (final Exception e)
+		catch (final IOException e)
 		{
-			LOGGER.error("Exception occured while reading the Anonymous Consent Cookie", e);
+			LOGGER.error("IOException occured while reading the Anonymous Consent Cookie", e);
 			return new ResponseEntity(HttpStatus.BAD_REQUEST);
 		}
 		return new ResponseEntity(HttpStatus.OK);
