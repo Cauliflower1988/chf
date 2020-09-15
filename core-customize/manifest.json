@@ -72,6 +72,7 @@
          "pcmbackofficesamplesaddon",
          "yb2bacceleratorstorefront",
          "yacceleratorstorefront",
+	 "secureportaladdon",  
           
          "cloudcommons",
          "cloudhotfolder",
@@ -205,6 +206,11 @@
         },
         {
             "addon": "consignmenttrackingoccaddon",
+            "storefront": "ycommercewebservices",
+            "template": "ycommercewebservices"
+        },
+	{
+            "addon": "secureportaladdon",
             "storefront": "ycommercewebservices",
             "template": "ycommercewebservices"
         },
