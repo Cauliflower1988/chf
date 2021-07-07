@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "1905",
+    "commerceSuiteVersion": "1905.11",
     "useCloudExtensionPack": true,  
       "extensions": [
          "adaptivesearchsolr",
@@ -17,7 +17,7 @@
          "ycommercewebservicestest",
          "orderselfserviceaddon",
          "electronicsstore",
-		 "apparelstore",
+	 "apparelstore",
          "powertoolsstore",
          "solrserver",
 
